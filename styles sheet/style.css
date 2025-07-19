@@ -143,5 +143,38 @@ nav h3{
     font-weight: 700px;
     font-size: 1rem;
     margin-top: 50px;
+    text-align: right;
+}
+
+/* features section */
+.feature-section{
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.feature-right{
+    max-width: 610px;
+}
+.feature-right h3{
+    font-size: 2.375rem;
+    font-weight: 700px;
+    margin-top: -16px;
+    margin-bottom: 16px;
+}
+.feature-right p{
+    max-width: 500px;
+    color: #6C6C6C;
+    font-weight: 700px;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+.feature-right .btn-primary{
+    border-radius: 0;
 }
  
